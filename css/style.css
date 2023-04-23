@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+html, body {
+  overflow: auto;
+}
+header {
+  height: 220px;
+  background-image: url('../img/waveBackground.jpeg');
+  background-size: 50%;
+  color: rgb(201, 31, 12);
+  border-top: rgb(201, 31, 12) 40px;
+}
+nav  {
+  font-size: 25px;
+  color: rgb(99, 99, 235);
+  display:flex;
+  justify-content: space-evenly; 
+  background-color: rgb(201, 31, 12);
+  background-size: 60px;
+  height: 40px;
+  padding-top: 10px;
+}
+ 
+
+body {
+  overflow:auto; 
+  background-image: url('../img/free-japanese-fan-wallpapers.jpeg'); 
+  height: 1000px;
+}
+
+.logo {
+  width: 450px;
+  margin-top: 50px; 
+} 
+section .logo {
+  margin-top: 0px;
+}
+
+#BigWave {
+  background-image: url('../img/BigWave.jpg');
+  background-repeat: no-repeat;
+  height: 700px;
+  
+  background-size: 100%;
+  
+  border: rgb(201, 31, 12), 10px;
+}
+#BigWave p {
+  background-color: rgb(255, 255, 255);
+  /* opacity: 50%; */
+  width: fit-content;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 110px;
+  text-align: center;
+  padding-top: 60px;
+}
+#smallwave {
+  background-image: url('../img/waveBackground.jpeg');
+  margin-top: 200px;
+  /* background-repeat: no-repeat; */
+  background-size: 150%;
+  height: 700px;
+}
+.family {
+  float: left;
+  width: 550px;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.Story {
+  /* width: 700px; */
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  color: rgb(201, 31, 12);
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  font-size: 25px; 
+
+}
+.Story p {
+margin: 0%;
+  
+}
+
+h2 {
+  /* background-image: url('../img/salmon.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  font-size: 70px;
+  margin-bottom: 50px;
+  padding: 20px;
+   
+  text-align: center;
+}
+h3 {
+  background-position: center;
+  background-size: 25%;
+  font-size: 70px;
+  padding-top: 20px;
+
+}
+p {
+  padding-top: 30px;
+  padding-left: 110px;
+  padding-right: 110px;
+  text-align: left;
+}
+div {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(201, 31, 12);
+  font-size: 25px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.Merch {
+  width: 700px; 
+  color: rgb(201, 31, 12);
+  margin-top: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  /* background-color: rgb(255, 255, 255); */
+  margin-left: 10px;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+  font-size: 25px; 
+  /* size: 20px;   */
+}
+.Merch ul {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+
+  height: 350px;
+  margin-right: 30px;
+  margin-left: 130px;
+}
+figcaption {
+  background-color: rgb(201, 31, 12);
+  color: white;
+  padding: 2px;
+  text-align: center;
+  margin-right: 50px;
+}
+.shirt {
+  margin-right: 60px;
+  height: 350px;
+  border: 10px solid #0476aa;
+}
+.cookiecutter {
+  margin-right: 50px;
+  height: 350px;
+  border: 10px solid #0476aa;
+}
+.sticker {
+  height: 350px;
+  width: 250px;
+  margin-right: 60px;
+  border: 10px solid #0476aa;
+}
+.bottomlogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 340px;
+  margin-left: 230px;
+  size: 100px;
+  
+}
+
+
+
+footer {
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background-color: rgb(201, 31, 12);
+  font-size: 25px;
+  color: rgb(168, 227, 237);
+}
+
+table {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(160, 131, 97);
+}
+
+#storeList {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#storeList td, #storeList th {
+  border: 3px solid #ddd;
+  padding: 20px;
+}
+
+#storeList tr:nth-child(even){background-color:rgb(201, 31, 12);}
+#storelist tr:nth-child(odd){background-color:rgb(168, 122, 84);}
+
+#storeList tr:hover {background-color: rgb(209, 78, 45);}
+
+#storeList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: left;
+  background-color: #0476aa;
+  color: white;
+}
+
+#formElement fieldset {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  /* flex-direction: column; */
+  /* margin-left: 350px; */
+  height: 100px;
+  width: 300px;
+  background-color: rgb(160, 131, 97);
+  
+  border: 3px solid #ddd;
+}
+#formElement :hover {background-color: #0476aa;}
+legend {
+  font-size: 50px;
+}
+
+
+
