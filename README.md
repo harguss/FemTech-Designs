@@ -1,5 +1,5 @@
-#i||a {tech}
-##Standard Operating Procedure (SOP)
+*i||a {tech}
+**Standard Operating Procedure (SOP)
 **Creating a Standard Operating Procedure (SOP) for a project manager who is engaging with a client to build a website
 
 **Project Manager's SOP for Client Website Development**
